@@ -1,0 +1,12 @@
+# RAG-пайплайн учебного куратора (этап 2)
+# Установка: pip install -r requirements.txt
+langchain-openai>=0.2
+langchain-chroma>=0.1.4
+langchain-text-splitters>=0.3
+chromadb>=0.5
+pyyaml>=6.0
+python-dotenv>=1.0
+
+# Интерфейс куратора (этап 4) - Jupyter-ноутбук с примерами диалогов
+jupyter>=1.0
+ipykernel>=6.0

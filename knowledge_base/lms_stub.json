@@ -1,0 +1,121 @@
+{
+  "course": {
+    "title": "Python с нуля",
+    "cohort": "PY-2026-09",
+    "start_date": "2026-09-07",
+    "end_date": "2026-10-18",
+    "timezone": "Europe/Madrid"
+  },
+  "schedule": [
+    {
+      "module": 1,
+      "module_name": "Основы Python",
+      "start_date": "2026-09-07",
+      "end_date": "2026-09-13",
+      "webinars": [
+        {"title": "Установка окружения, первая программа", "datetime": "2026-09-08T19:00"},
+        {"title": "Переменные и типы данных", "datetime": "2026-09-10T19:00"}
+      ]
+    },
+    {
+      "module": 2,
+      "module_name": "Управляющие конструкции",
+      "start_date": "2026-09-14",
+      "end_date": "2026-09-20",
+      "webinars": [
+        {"title": "Условия if/elif/else", "datetime": "2026-09-15T19:00"},
+        {"title": "Циклы for и while", "datetime": "2026-09-17T19:00"}
+      ]
+    },
+    {
+      "module": 3,
+      "module_name": "Функции",
+      "start_date": "2026-09-21",
+      "end_date": "2026-09-27",
+      "webinars": [
+        {"title": "Определение функций, return", "datetime": "2026-09-22T19:00"},
+        {"title": "Аргументы и область видимости", "datetime": "2026-09-24T19:00"}
+      ]
+    },
+    {
+      "module": 4,
+      "module_name": "Коллекции",
+      "start_date": "2026-09-28",
+      "end_date": "2026-10-04",
+      "webinars": [
+        {"title": "Списки и срезы", "datetime": "2026-09-29T19:00"},
+        {"title": "Словари и перебор коллекций", "datetime": "2026-10-01T19:00"}
+      ]
+    },
+    {
+      "module": 5,
+      "module_name": "Работа с файлами и ошибками",
+      "start_date": "2026-10-05",
+      "end_date": "2026-10-11",
+      "webinars": [
+        {"title": "Чтение и запись файлов", "datetime": "2026-10-06T19:00"},
+        {"title": "Исключения try/except", "datetime": "2026-10-08T19:00"}
+      ]
+    },
+    {
+      "module": 6,
+      "module_name": "Итоговый проект",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-18",
+      "webinars": [
+        {"title": "Разбор тем проектов, Q&A", "datetime": "2026-10-13T19:00"},
+        {"title": "Защита проектов", "datetime": "2026-10-17T18:00"}
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": "hw1",
+      "module": 1,
+      "title": "Калькулятор профиля: ввод и преобразование данных",
+      "deadline": "2026-09-14T23:59",
+      "max_score": 10,
+      "submission_format": "py-файл"
+    },
+    {
+      "id": "hw2",
+      "module": 2,
+      "title": "Числовой угадайщик: условия и циклы",
+      "deadline": "2026-09-21T23:59",
+      "max_score": 10,
+      "submission_format": "py-файл"
+    },
+    {
+      "id": "hw3",
+      "module": 3,
+      "title": "Библиотека функций: конвертер величин",
+      "deadline": "2026-09-28T23:59",
+      "max_score": 10,
+      "submission_format": "py-файл"
+    },
+    {
+      "id": "hw4",
+      "module": 4,
+      "title": "Каталог курсов: список словарей",
+      "deadline": "2026-10-05T23:59",
+      "max_score": 10,
+      "submission_format": "py-файл"
+    },
+    {
+      "id": "hw5",
+      "module": 5,
+      "title": "Дневник заметок: файлы и обработка ошибок",
+      "deadline": "2026-10-12T23:59",
+      "max_score": 10,
+      "submission_format": "py-файл"
+    },
+    {
+      "id": "final_project",
+      "module": 6,
+      "title": "Итоговый проект: консольное приложение",
+      "deadline": "2026-10-16T23:59",
+      "max_score": 30,
+      "submission_format": "py-файл или Jupyter-ноутбук"
+    }
+  ]
+}
